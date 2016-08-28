@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="UTF-8">
+    <title>Electron Angular Base</title>
+  </head>
+  <body>
+
+    <div ui-view></div>
+
+  </body>
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+    require('./app/require.js')
+  </script>
+</html>
