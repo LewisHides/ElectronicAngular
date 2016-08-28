@@ -1,8 +1,8 @@
 # Electron + AngularJS Base Development App
 
-**Based off electron-quick-start**
+**Based off electron-quick-start.**
 
-**Clone and run for a quick way to see an Electron in action. Along with the base structure for an AngularJS app using UI-Router**
+**Clone and run for a quick way to see an Electron in action along with the base structure for an AngularJS app using UI-Router + Bootstrap.**
 
 ## To Use
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
