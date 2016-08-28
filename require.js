@@ -5,25 +5,13 @@
 //Electron Renderer
 require('./renderer.js')
 
-/**
- * Node Modules
- */
-
-/**
- * Node Modules Location
- * @type {string}
- */
-var nodeModules = './node_modules/'
-
-var requireModule = function(moduleLocation){
-    require(nodeModules+moduleLocation);
-}
-
-//Angular JS
-requireModule('angular/angular.js');
-requireModule('angular-ui-router/release/angular-ui-router.js');
+global.jQuery = require('jquery');
+require('bootstrap');
+require('angular');
+require('angular-ui-router');
 
 /**
  * AngularJS App
  */
 require('./app/require.js');
+
