@@ -9,7 +9,7 @@
 //App Location Constants
 APP = './app/';
 APP_TEMPLATES = APP+'templates/';
-CONTROLLERS = './controllers/'
+CONTROLLERS = './controllers/';
 
 /**
  * Require AngularJS App Files
@@ -19,7 +19,7 @@ require('./config.route.js');
 require(CONTROLLERS+'main.js');
 
 /**
- * Require Modules
+ * Require AngularJS Modules
  */
 
 APP_MODULES = APP+'modules/';

@@ -2,8 +2,8 @@
  * Created by R4nd0mJ0k3r on 28/08/2016.
  */
 
-//Electron Renderer
-require('./renderer.js')
+//Renderer
+//require('./renderer.js')
 
 global.jQuery = require('jquery');
 require('bootstrap');
