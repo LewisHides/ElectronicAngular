@@ -7,7 +7,7 @@
     angular.module('baseModule')
 
         .controller('helloWorldCtrl', [function () {
-            console.log('Controller Here!');
+            console.log('helloWorldCtrl');
         }])
 
 })();;

@@ -3,16 +3,12 @@
  */
 
 /**
- * Require AngularJS
+ * Application Settings
  */
-require('../node_modules/angular/angular.js');
-require('../node_modules/angular-ui-router/release/angular-ui-router.js');
 
 //App Location Constants
 APP = './app/';
 APP_TEMPLATES = APP+'templates/';
-APP_MODULES = APP+'modules/';
-
 CONTROLLERS = './controllers/'
 
 /**
@@ -20,9 +16,18 @@ CONTROLLERS = './controllers/'
  */
 require('./app.js');
 require('./config.route.js');
-
 require(CONTROLLERS+'main.js');
 
+/**
+ * Require Modules
+ */
+
+APP_MODULES = APP+'modules/';
+
+/**
+ * Require Module Function
+ * @param moduleName
+ */
 var requireModule = function(moduleName){
     require('./modules/'+moduleName+'/require.js');
 }

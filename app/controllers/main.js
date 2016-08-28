@@ -7,7 +7,7 @@
     angular.module('myApp')
 
         .controller('mainCtrl', function () {
-            console.log('Controller Here!');
+            console.log('mainCtrl');
         })
 
 })();
